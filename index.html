@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=SUSE:wght@100..800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="images/weather-app.png">
+</head>
+
+<body>
+    <main>
+        <div class="main_top">
+            <p class="city_name">Los Angeles</p>
+            <p class="discription">chance of Rain: 3%</p>
+        </div>
+
+        <div class="main_center">
+            <p class="temp">28<sup>º</sup></p>
+            <img src="images/weather-app.png" alt="weather-icon" class="weather_img" />
+            <div class="wind_humid_box">
+                <div >
+                    <p class="wh-prop">Wind</p>
+                    <p class="wh-val">9 km/h</p>
+                </div>
+
+                <div >
+                    <p class="wh-prop">Humidity</p>
+                    <p class="wh-val">79%</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main_down">
+            <p>Monday 29,May</p>
+            <div class="search_box">
+                <input type="text" name="city" id="" placeholder="Search City"/>
+                <button class="btn-search">
+                    Search
+                </button>
+            </div>
+        </div>
+        <nav>
+            <img src="images/home.png" alt="" class="nav_img" />
+            <img src="images/search.png" alt="" class="nav_img" id="search_img"/>
+            <img src="images/more.png" alt="" class="nav_img" />
+            <img src="images/profile.png" alt="" class="nav_img" />
+        </nav>
+    </main>
+</body>
+<script src="js/main.js"></script>
+
+</html>

@@ -1,0 +1,55 @@
+{
+    "name": "weather",
+    "short_name": "weather",
+    "start_url": "index.html",
+    "display": "standalone",
+    "icons": [
+      {
+        "sizes": "114x114",
+        "src": "images/weather-app.png"
+      },
+      {
+        "sizes": "120x120",
+        "src": "images/weather-app.png"
+      },
+      {
+        "sizes": "144x144",
+        "src": "images/weather-app.png"
+      },
+      {
+        "sizes": "152x152",
+        "src": "images/weather-app.png"
+      },
+      {
+        "sizes": "180x180",
+        "src": "images/weather-app.png"
+      },
+      {
+        "sizes": "57x57",
+        "src": "images/weather-app.png"
+      },
+      {
+        "sizes": "60x60",
+        "src": "images/weather-app.png"
+      },
+      {
+        "sizes": "72x72",
+        "src": "images/weather-app.png"
+      },
+      {
+        "sizes": "76x76",
+        "src": "images/weather-app.png"
+      },
+      {
+        "src": "images/weather-app.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "images/weather-app.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "prefer_related_applications": true
+  }
